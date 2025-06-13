@@ -1,0 +1,205 @@
+
+body{
+    background-image: url(image/fondopizza.png);
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    
+    
+    
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: greenyellow;
+    
+}
+#pizzaanimado{
+    border-radius: 100%;
+}
+.boximg{
+    height: 20%;
+    float: left;
+    margin: 20px;
+}
+
+ /*Formato de menu*/
+.clase{text-align: center;}
+.menu{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border-color: red;
+   
+   
+}
+li{
+    list-style-type:none;
+    padding: 12px 15px;            
+}
+a{
+    color:rgb(96, 161, 223);
+    text-decoration: none;
+    padding:8px;
+    text-align: center;            
+}
+a:hover{
+    opacity: 50%;
+}
+#bodyinicio{
+    transform: translate(1%,20%);
+    
+}
+#insta{
+    transform: translate(-90%,-50%);
+}
+#twi{
+    transform: translate(-50%,-148%);
+}
+#face{
+    transform: translate(-10%, -250%);
+}
+#tik{
+    transform: translate(30%,-350%);
+}
+#fotoblog{
+    transform: translate(350%, 1%);
+    border-radius: 10px;
+    z-index: 1;
+}
+#arblog{
+    display: flex;
+    margin: 50px;
+}
+#h2blog{
+    text-align: center;
+}
+#pizza1{
+    height: 300px;
+    border-radius: 20px;
+}
+#pizza2{
+    height: 300px;
+    border-radius: 20px;
+}
+#pizza3{
+    height: 300px;
+    border-radius: 20px;
+}
+#pizza4{
+    height: 300px;
+    border-radius: 20px;
+}
+#pizza5{
+    height: 300px;
+    border-radius: 20px;
+}
+#pizza6{
+    height: 300px;
+    border-radius: 20px;
+}
+.pgal{
+    text-align: center;
+}
+#arvideo{
+    text-align: center;
+    align-items: center;
+    margin: 70px;
+}
+#mainblog{
+    position: fixed;
+    top: 0px;
+    
+    background-color: crimson;
+    border: 2px solid black;
+   width: 100%;
+   z-index: 50;
+   
+}
+p{
+    text-align: center;
+    color: rgb(81, 255, 0);
+}
+section{
+    transform: translate(1%,20%);
+}
+footer{
+    transform: translate(1%,170%);
+}
+.menuinicio{
+    transform: translate(1%,-180%);
+}
+.boximg :hover{
+    opacity: 70%;
+}
+h2{
+    color: brown;
+}
+h3{
+    color: aquamarine;
+}
+.botoness{
+  width: 240px;
+  margin: 10px;
+  background-color: #334960;
+  color: white;
+}
+textarea{
+    width: 450px;
+    margin: 10px;
+    height: 200px;
+}
+.info{
+    margin: 10px;
+    width: 450px;
+    height: 30px;
+}
+#contenedorContac{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    text-align: left;
+    
+    width: 100%;
+ 
+}
+map{
+    display: block;
+    text-align: center;
+    margin-bottom: 120px;
+}
+#contacto{
+    background: linear-gradient(to right, blueviolet 15%, aquamarine 50%, black 75%, brown 100% );
+    border-radius: 5%;
+}
+.red{
+   color: black;
+}
+table{
+    border: 2px solid white;
+    border-spacing: 0px;
+}
+
+td,th{
+    border: 2px solid red;
+    
+}
+#pizza{
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.h2contac{
+   text-align: center;
+}
